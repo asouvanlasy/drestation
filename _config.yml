@@ -3,7 +3,8 @@ author: Andrew Souvanlasy # Your name
 email: asouvanlasy@outlook.com # ~your email shown in the footer
 url: https://drestation.com/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A blog documenting things I've learned in university.
+  A blog documenting things I've learned in a way
+  that is understandable by a twelve-year-old.
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -19,7 +20,7 @@ moving:
   # generate social links in about page.
   social_links:
     # twitter: 
-    github:  asouvanlasy
+    github: asouvanlasy
     rss: RSS
     # dribbble: 
     # facebook:
