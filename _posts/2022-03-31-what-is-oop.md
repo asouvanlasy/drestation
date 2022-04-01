@@ -26,6 +26,7 @@ class Gun {
     
     // This function subtracts one bullet when fired
     function shoot() {
+        bullets--
     }
 }
 ```
@@ -57,6 +58,17 @@ These are the four major concepts of OOP:
 As seen as before, we defined a `Gun` class. Let's create a `Gun` object.
 
 ```
+class Gun {
+    // Define what type of data
+    string model
+    int bullets
+    
+    // This function subtracts one bullet when fired
+    function shoot() {
+        bullets--
+    }
+}
+
 class Main {
     // Create a Gun called ak47
     Gun ak47 = {
