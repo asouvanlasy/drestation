@@ -1,3 +1,3 @@
 # DreStation
-A WIP blog made with Jekyll and Github Pages.
-View the live site at [drestation.com](http://drestation.com "drestation.com").
+A blog made with Jekyll, huangyz0918's [moving](https://github.com/huangyz0918/moving) theme, and Github Pages.
+Visit at [drestation.com](http://drestation.com).
