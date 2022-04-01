@@ -6,6 +6,4 @@ DreStaton is a project about documenting the things I've learned or are currentl
 
 ### What's New
 
-- Launched this website on March 30, 2022
-
-- Begun my journey documenting various things.
+- Launched this website and begun my journey documenting various things (March 30, 2022).

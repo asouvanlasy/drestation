@@ -6,7 +6,7 @@ categories: doc
 
 Object-oriented programming (OOP) is a programming paradigm focused on classes and objects.
 
-- Programming paradigms are the ways, techniques or approaches to writing programs.
+- Programming paradigms are the ways, techniques or approaches to writing programs, similar to how there are many martial arts for fighting.
 
 - Classes are the blueprints for creating objects. They define what the data should be and what a function can do with that data.
 
@@ -18,11 +18,11 @@ Here, `Gun` is a class. The class defines what a `Gun` should be and what it sho
 
 To demonstrate this with pseudocode (fake code):
 
-```
+```text
 class Gun {
-    // Define what type of data
+    // Define datatype
     string model
-    int bullets
+    number bullets
     
     // This function subtracts one bullet when fired
     function shoot() {
@@ -57,11 +57,11 @@ These are the four major concepts of OOP:
 
 As seen as before, we defined a `Gun` class. Let's create a `Gun` object.
 
-```
+```text
 class Gun {
     // Define what type of data
-    string model
-    int bullets
+    String model
+    number bullets
     
     // This function subtracts one bullet when fired
     function shoot() {
@@ -80,7 +80,7 @@ class Main {
 }
 ```
 
-Here are some ways we can demonstrate OOP concepts:
+Here are some ways our `Gun` could demonstrate OOP concepts:
 
 - **Encapsulation:** sensitive details about the gun can be hidden. Perhaps it's an new prototype?
 
@@ -88,13 +88,15 @@ Here are some ways we can demonstrate OOP concepts:
 
 - **Polymorphism:** a gun can appear in many forms. Our AK-47 is based off the blueprint `Gun` class.
 
-- **Inheritance:** AK-47 takes traits from `Gun`, such as having bullets and shooting.
+- **Inheritance:** we could create a subclass called bullets to extend the functionality (ex. detailing bullet caliber).
 
 ## What Else?
 
 Most programming languages are a mix of paradigms and exhibit some or all aspects of OOP.
 
-Developers don't band together behind a paradigm like rooting for a sports team. They decide based on what's the best tool for the job.
+However, OOP isn't a perfect system and has come under criticism over the years. One commonly stated issue is that the design process is more difficult. Effort must be made into designing classes and their relations to other classes. This can result in deep web of messy code that is unreadable by humans.
+
+The debate between developers is comparable to Twitter hot takes. Despite this, most developers don't band together behind a paradigm like rooting for a sports team. They decide based on what's the best tool for the job.
 
 **Procedural programming** is an alternative paradigm that is based on procedures rather than simulating real-world objects. Instead of focusing on the data, it focuses on how to do the task.
 
