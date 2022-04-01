@@ -2,9 +2,10 @@
 layout: about
 ---
 
-These are controlled by `about.md` under the root directory. If you want a more diverse self-introduction, you can insert the markdown content you want here.
+DreStaton is a project about documenting the things I've learned or are currently learning. It's intended to aid my understanding of various topics through writing. If I can explain things or teach others, it will surely help me teach myself.
 
 ### What's New
 
-- One paper got accepted in xxx 2019.
-- I'm going to join xxx as a xxx 2019 Fall.
+- Launched this website on March 30, 2022
+
+- Begun my journey documenting various things.
