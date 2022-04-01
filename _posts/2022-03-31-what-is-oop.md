@@ -14,6 +14,8 @@ Object-oriented programming (OOP) is a programming paradigm focused on classes a
 
 ## Real-World Example
 
+![AK-47 blueprint](https://drawingdatabase.com/wp-content/uploads/2016/07/ak47.gif)
+
 Here, `Gun` is a class. The class defines what a `Gun` should be and what it should do. In our example, our `Gun` will have a model, ammo, and can shoot.
 
 To demonstrate this with pseudocode (fake code):
@@ -94,7 +96,11 @@ Here are some ways our `Gun` could demonstrate OOP concepts:
 
 Most programming languages are a mix of paradigms and exhibit some or all aspects of OOP.
 
-However, OOP isn't a perfect system and has come under criticism over the years. One commonly stated issue is that the design process is more difficult. Effort must be made into designing classes and their relations to other classes. This can result in deep web of messy code that is unreadable by humans.
+However, OOP isn't a perfect system and has come under criticism over the years.
+
+One commonly stated issue is that the design process is more difficult.
+
+Effort must be made into designing classes and their relations to other classes. This can result in deep web of messy code that is unreadable by humans.
 
 The debate between developers is comparable to Twitter hot takes. Despite this, most developers don't band together behind a paradigm like rooting for a sports team. They decide based on what's the best tool for the job.
 
