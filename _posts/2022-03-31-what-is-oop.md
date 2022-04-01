@@ -6,11 +6,11 @@ categories: doc
 
 Object-oriented programming (OOP) is a programming paradigm focused on classes and objects.
 
-- Programming paradigms are the way or approach to writing programs.
+- Programming paradigms are the ways, techniques or approaches to writing programs.
 
-- Classes are the blueprints for creating objects. They define what the data should be and what a method can do with that data.
+- Classes are the blueprints for creating objects. They define what the data should be and what a function can do with that data.
 
-- Objects are the building blocks for programs. They hold the actual data as defined by the blueprint.
+- Objects hold the actual data as defined by the blueprint.
 
 ## Real-World Example
 
@@ -22,25 +22,21 @@ To demonstrate this with pseudocode (fake code):
 class Gun {
     // Define what type of data
     string model
-    number bullets
+    int bullets
     
-    // This method subtracts one bullet when fired
-    method shoot() {
+    // This function subtracts one bullet when fired
+    function shoot() {
     }
 }
 ```
 
 ## Why OOP?
 
-The main purpose of OOP is to neatly package together data and functionality.
+The main purpose of OOP is to neatly package together data and it's functionality.
 
-Real-world things are easier to represent, such as our `Gun`.
+The advantage of this is that your code is more organized, reusable and flexible. Real-world things are easier to represent, such as our `Gun`.
 
-The advantage of this is that your code is more organized, reusable and flexible.
-
-Imagine having to create a `Gun` thousands of times, each with different attributes.
-
-It would get tiresome to start from scratch each time.
+Imagine having to create a `Gun` thousands of times, each with different attributes. It would get tiresome to start from scratch each time.
 
 This makes OOP suitable for large-scale and complex programs that are continously updated.
 
@@ -48,17 +44,17 @@ This makes OOP suitable for large-scale and complex programs that are continousl
 
 These are the four major concepts of OOP:
 
-- **Encapsulation:** every part of an object or class can be encapsulated; meaning you can decide which parts should be hidden or visible (most usually for security).
+- **Encapsulation:** every part of an object or class can be encapsulated; meaning you can decide which parts should be hidden or visible (for security).
 
--- **Abstraction:** hiding certain details and showing only information deemed essential to the user. This can be thought of as an extension of encapsulation.
+- **Abstraction:** hiding certain details and showing only information deemed essential to the user. This can be thought of as an extension of encapsulation.
 
--- **Polymorphism:** one class can be used to create many objects, all from the same flexible piece of code. The word 'polymorphism' is derived from Greek meaning "many forms".
+- **Polymorphism:** one class can be used to create many objects, all from the same flexible piece of code. The word 'polymorphism' is derived from Greek meaning "many forms".
 
--- **Inheritance:** classes can inherit data from other classes, so more code is reusable resulting in faster development.
+- **Inheritance:** classes can inherit data from other classes, so more code is reusable resulting in faster development.
 
 ### Extending the Gun Example
 
-As seen as before, we defined a `Gun` class. We can now create a `Gun` objects
+As seen as before, we defined a `Gun` class. Let's create a `Gun` object.
 
 ```
 class Main {
@@ -72,13 +68,15 @@ class Main {
 }
 ```
 
+Here are some ways we can demonstrate OOP concepts:
+
 - **Encapsulation:** sensitive details about the gun can be hidden. Perhaps it's an new prototype?
 
--- **Abstraction:** show only essential information like how to shoot the gun. In this case, that would be very poor firearm safety.
+- **Abstraction:** show only essential information like how to shoot the gun. In this case, that would be very poor firearm safety.
 
--- **Polymorphism:** a gun can appear in many forms. Our AK-47 is based off the blueprint `Gun` class.
+- **Polymorphism:** a gun can appear in many forms. Our AK-47 is based off the blueprint `Gun` class.
 
--- **Inheritance:** the AK-47 takes traits from `Gun`, such as having bullets and shooting.
+- **Inheritance:** AK-47 takes traits from `Gun`, such as having bullets and shooting.
 
 ## What Else?
 
