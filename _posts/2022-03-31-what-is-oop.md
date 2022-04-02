@@ -41,7 +41,7 @@ The advantage of this is that your code is more organized, reusable and flexible
 
 Imagine having to create a `Gun` thousands of times, each with different attributes. It would get tiresome to start from scratch each time.
 
-This makes OOP suitable for large-scale and complex programs that are continously updated.
+This makes OOP suitable for large programs that have many objects which are connected to one another.
 
 ## The Four Pillars of OOP
 
@@ -61,7 +61,7 @@ As seen as before, we defined a `Gun` class. Let's create a `Gun` object.
 
 ```text
 class Gun {
-    // Define what type of data
+    // Define datatype
     String model
     number bullets
     
