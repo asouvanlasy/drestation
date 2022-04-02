@@ -62,7 +62,7 @@ As seen as before, we defined a `Gun` class. Let's create a `Gun` object.
 ```text
 class Gun {
     // Define datatype
-    String model
+    string model
     number bullets
     
     // This function subtracts one bullet when fired
