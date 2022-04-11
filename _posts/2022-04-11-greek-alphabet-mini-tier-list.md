@@ -32,7 +32,7 @@ Next up is lowercase alpha (α). Although uppercase alpha (A) is larger and thus
 
 Uppercase delta is an all-around well-designed letter. It's simple to write, and the Latin "D" and Cyrillic "Д" are derived from delta. As far as I'm aware, the "D" sound stays consistent across multiple languages, such as English and French (unlike the horribleness that is "C" or "K").
 
-Such a pleasantly shaped letter can be brought outside language; for example, the delta wing in aerodynamics is named after delta's shape.
+Such a pleasantly shaped letter can be brought outside language; for example, the delta wing in aerodynamics is named after its shape.
 
 ![delta wing of MiG-21](https://drawingdatabase.com/wp-content/uploads/2019/04/MiG-21.gif)
 <p style="text-align: center">Delta wing of the MiG-21 jet fighter.</p>
