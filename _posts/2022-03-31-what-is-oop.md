@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What is a Object-Oriented Programming?"
-categories: doc
 ---
 
 Object-oriented programming (OOP) is a programming paradigm focused on classes and objects.

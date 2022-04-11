@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What is a Software Engineer?"
-categories: doc
 ---
 
 ![pressing delete key GIF](https://media.giphy.com/media/5xaOcLwEvFOizxHVyVy/giphy.gif)
