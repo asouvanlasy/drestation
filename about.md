@@ -2,7 +2,7 @@
 layout: about
 ---
 
-DreStation is a project about documenting the things I've learned or are currently learning. It's intended to aid my understanding of various topics through writing. If I can explain things or teach others, it will surely help me teach myself.
+DreStation is a project about documenting the things I've learned or am currently learning. It's intended to aid my understanding of various topics through writing. If I can explain things or teach others, it will surely help me teach myself.
 
 ### What's New
 
