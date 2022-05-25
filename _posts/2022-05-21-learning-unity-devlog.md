@@ -11,7 +11,7 @@ I had used Unity for a short time modifying 3D avatars for *VRChat*, adjusting p
 
 I knew going into this that if I mindlessly followed a 4 hour long tutorial on YouTube, I wouldn't learn anything. My plan became to go step-by-step through the process, adding one feature at a time.
 
-Thankfully, I found an great tutorial series by [Pandemonium](https://www.youtube.com/playlist?list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV) on YouTube which fit my plan. Each video is a topic in of itself and is very digestable. This style of learning is proving to be effective since I can follow an episode and complete a feature each day. I can feel accomplished and motivated because I know I made progress.
+Thankfully, I found an great tutorial series by [Pandemonium](https://www.youtube.com/playlist?list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV) on YouTube which fit my plan. Each video is a topic in of itself and is very digestable. This style of learning is proving to be effective since I can follow an episode and add something new each day, creating a positive feedback loop.
 
 ## Roadmap
 
@@ -19,18 +19,26 @@ Thankfully, I found an great tutorial series by [Pandemonium](https://www.youtub
 
 ![Snapshot of the game currently](https://i.imgur.com/TEDrj5G.png)
 
-- [X] Created the Unity project
-- [X] Created a black line as the ground and a white square as the player
-- [X] Basic movement left-right (first C# script)
-- [X] Imported a free Unity asset for player model and animations
-- [X] Player movement is animated
-- [X] Added jumping
-- [X] Added wall jumping
-- [X] Added shooting fireballs
-- [ ] Fixed fireballs
+- Created the Unity project
+- Created a black line as the ground and a white square as the player
+- Basic movement left-right (first C# script)
+- Imported a free Unity asset for player model and animations
+- Player movement is animated
+- Added jumping
+- Added wall jumping
+- Added shooting fireballs
+- TODO: fix fireballs behaviour
 
-### Thoughts on C# Scripting
+#### Thoughts on C# Scripting
 
 Coding C# for Unity is surprisingly intuitive. You have the option of using VS2019 or VSC (my preference) which comes handy with IntelliSense/auto-completion. Unity's components are literally OOP "objects".
 
 I'm by no means already a Unity syntax expert, but what I've seen so far is very approachable for a programmer with a year's worth of experience.
+
+### May 25, 2022
+
+![New sprite graphics](https://i.imgur.com/ftEodPn.png)
+
+-  Added terrain and background textures
+
+I feel like there should be a more efficient way of creating levels than copy-pasting each tile.
