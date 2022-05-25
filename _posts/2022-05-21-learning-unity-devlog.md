@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Unity 2D - Devblog"
+title: "Learning Unity 2D - Devlog"
 ---
 
 The first year of university is over, so I'm met with an abundance of time and no direction. After struggling to bring myself to start a coding project or to learn a language, then playing the excellent 2D game *Katana ZERO*, I decided to learn Unity 2D game development.
