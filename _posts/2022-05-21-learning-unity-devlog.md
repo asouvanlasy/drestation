@@ -42,3 +42,9 @@ I'm by no means already a Unity syntax expert, but what I've seen so far is very
 -  Added terrain and background textures
 
 I feel like there should be a more efficient way of creating levels than copy-pasting each tile.
+
+### May 30, 2022
+
+![Camera follows player](https://i.imgur.com/anZPFED.gif)
+
+- Added a following camera. It even looks ahead of the direction of movement!
