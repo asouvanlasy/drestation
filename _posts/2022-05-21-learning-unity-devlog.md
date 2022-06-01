@@ -27,7 +27,7 @@ Thankfully, I found an great tutorial series by [Pandemonium](https://www.youtub
 - Added jumping
 - Added wall jumping
 - Added shooting fireballs
-- TODO: fix fireballs behaviour
+- ~~TODO: fix fireballs behaviour~~
 
 #### Thoughts on C# Scripting
 
