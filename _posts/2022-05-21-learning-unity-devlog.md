@@ -48,3 +48,33 @@ I feel like there should be a more efficient way of creating levels than copy-pa
 ![Camera follows player](https://i.imgur.com/anZPFED.gif)
 
 - Added a following camera. It even looks ahead of the direction of movement!
+
+### June 6, 2022
+
+![Player dying](https://i.imgur.com/svYPfE5.png)
+
+- Added health. Player has 3 hearts which update when damaged
+- Spinning saw trap to hurt the player
+- Health pickups
+- Animations for getting hurt and dying
+- Added sorting layers for sprites (background -> foreground -> player -> ground)
+
+One thing that I thought was pretty cool was this getter and setter in the scripts for the player's health and healthbar.
+
+#### HealthBar.cs
+```
+// Update UI to match player's current health
+private void Update()
+{
+    currentHealthBar.fillAmount = playerHealth.currentHealth / 10; 
+}
+```
+
+HealthBar needs to be able to know what the player's health is, but that variable is from Health.cs. To get around this:
+
+#### Health.cs
+```
+public float currentHealth { get; private set; } // Var can be grabbed from outside, but can only be set inside this script
+```
+
+So, any file can `{get}` the player's health, but they can't `{set}` it. This matters because I don't want that variable to get modified from anywhere except here (which could lead to bugs).
