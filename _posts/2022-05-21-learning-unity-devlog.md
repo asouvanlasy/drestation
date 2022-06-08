@@ -3,6 +3,8 @@ layout: post
 title: "Learning Unity 2D - Devlog"
 ---
 
+**[View source on GitHub](https://github.com/asouvanlasy/unity-basic-2d-platformer)**
+
 The first year of university is over, so I'm met with an abundance of time and no direction. After struggling to bring myself to start a coding project or to learn a language, then playing the excellent 2D game *Katana ZERO*, I decided to learn Unity 2D game development.
 
 I had used Unity for a short time modifying 3D avatars for *VRChat*, adjusting properties like scale, editing textures, adding sounds, and failing to get eye-tracking working. All of that didn't require any C# coding, but now I can use my knowledge from my C# class this year.
@@ -13,7 +15,7 @@ I knew going into this that if I mindlessly followed a 4 hour long tutorial on Y
 
 Thankfully, I found an great tutorial series by [Pandemonium](https://www.youtube.com/playlist?list=PLgOEwFbvGm5o8hayFB6skAfa8Z-mw4dPV) on YouTube which fit my plan. Each video is a topic in of itself and is very digestable. This style of learning is proving to be effective since I can follow an episode and add something new each day, creating a positive feedback loop.
 
-## Roadmap
+## Updates
 
 ### May 16-21, 2022
 
