@@ -78,3 +78,11 @@ public float currentHealth { get; private set; } // Var can be grabbed from outs
 ```
 
 So, any file can `{get}` the player's health, but they can't `{set}` it. This matters because I don't want that variable to get modified from anywhere except here (which could lead to bugs).
+
+### June 8, 2022
+
+- Added invulnerability frames (iFrames). The player will flash red 3 times when hit (unless dying).
+
+Something new I used for the first time were courotines. From the Unity documentation: *A coutine allow you to spread tasks across several frames*. For my iFrames, courotines allowed the effect to be spread over any length of time. Without courotines, iFrames would halt every task since it would need to finish itself. 
+
+Some other new things I used for the first time was the `IEnumerator` interface and the `yield return` keyword, both of which I don't really understand (yet).
