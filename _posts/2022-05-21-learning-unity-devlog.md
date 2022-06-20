@@ -88,3 +88,13 @@ So, any file can `{get}` the player's health, but they can't `{set}` it. This ma
 Something new I used for the first time were courotines. From the Unity documentation: *A coutine allow you to spread tasks across several frames*. For my iFrames, courotines allowed the effect to be spread over any length of time. Without courotines, iFrames would halt every task since it would need to finish itself. 
 
 Some other new things I used for the first time was the `IEnumerator` interface and the `yield return` keyword, both of which I don't really understand (yet).
+
+### June 20, 2022
+
+- Added some more traps:
+    - Arrow trap
+    - Spikehead which chases you around the room when you enter line of sight
+        - The spikehead draws a raycast (the red line in the gif) and when the player enters that line's collider, the spikehead moves in that direction.
+    - Fire trap
+- The door has a trigger to reset the position of enemies (so they don't follow you to the other room)
+    - An array of vectors (coordinates) holds the position of each enemy
